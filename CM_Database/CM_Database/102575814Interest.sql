@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[102575814Interest]
+(
+	[InterestCode] NVARCHAR(2) NOT NULL PRIMARY KEY,
+	[InterestDesc] NVARCHAR(50) NOT NULL
+)
