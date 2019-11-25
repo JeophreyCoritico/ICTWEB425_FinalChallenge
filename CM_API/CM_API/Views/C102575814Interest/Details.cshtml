@@ -1,0 +1,26 @@
+﻿@model CM_API.Models.C102575814Interest
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>C102575814Interest</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.InterestDesc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InterestDesc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.InterestCode }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

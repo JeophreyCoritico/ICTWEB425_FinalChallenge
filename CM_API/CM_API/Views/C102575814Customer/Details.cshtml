@@ -1,0 +1,50 @@
+﻿@model CM_API.Models.C102575814Customer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>C102575814Customer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CustName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustPcode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustPcode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.C102575814Interest.InterestDesc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.C102575814Interest.InterestDesc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
